@@ -42,3 +42,4 @@ for(i in 8:150){          #cover plausible scores (highest score in pro rugby si
   #we add these to our master validscores df and repeat for all scores, i
   validscores <- rbind(validscores,compositions_for_i)
 }
+View(validscores)
